@@ -30,7 +30,7 @@ void loop() {
   switchState = digitalRead(switchPin);
   if( switchState == HIGH) {
     setBioHazard();
-    delay(5000);
+    delay(600000);
     setAllClear();
   }
 }
